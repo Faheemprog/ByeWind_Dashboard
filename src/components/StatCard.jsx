@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../css/statcard.css";
+import "../css/Statcard.css";
 
 export default function StatCard({ title, value, meta, to, highlight }) {
   const inner = (
@@ -13,3 +13,4 @@ export default function StatCard({ title, value, meta, to, highlight }) {
   
   return to ? <Link to={to} className="stat-link">{inner}</Link> : inner;
 }
+
