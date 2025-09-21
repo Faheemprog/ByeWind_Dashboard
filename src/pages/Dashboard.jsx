@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/dashboard.css";
+import "../css/Dashboard.css";
 import StatCard from "../components/StatCard";
 import RevenueLocation from "../assets/RevenueLocation.png";
 import SellingProducts from "../assets/SellingProducts.png";
@@ -52,3 +52,4 @@ export default function Dashboard() {
     </div>
   );
 }
+
