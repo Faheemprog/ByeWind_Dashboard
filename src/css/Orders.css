@@ -1,0 +1,64 @@
+.orders-page {
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  padding-top:8px;
+  box-sizing:border-box;
+}
+
+.orders-content {
+  width: 1172px;
+  height: 44px;
+  gap:16px;
+  border-radius:8px;
+  padding:8px;
+  background: var(--panel-2);
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+img { max-width: 100%; height: auto; }
+
+
+.orders-table {
+  overflow-x: auto;  
+}
+.orders-table table {
+  width: 100%;          
+  table-layout: fixed; 
+  border-collapse: collapse;
+  min-width: 0;      
+}
+.orders-table th,
+.orders-table td {
+  white-space: nowrap;         
+  overflow: hidden;
+  text-overflow: ellipsis;    
+  padding: 12px 10px;
+}
+
+.orders-table {
+  width: 1172px;
+  height: 440px;
+  background: var(--panel);
+  border-radius: 8px;
+  padding: 12px;
+  overflow:auto;
+  box-sizing: border-box;
+}
+
+.pagination {
+  width:244px;
+  height:28px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  border-radius:8px;
+  padding:4px;
+  box-sizing:border-box;
+}
+
+.control-pill { display:inline-flex; align-items:center; gap:8px; height:28px; border-radius:8px; padding:4px 8px; background: rgba(255,255,255,0.02); box-sizing:border-box; color:var(--muted); }

@@ -1,0 +1,16 @@
+.rightbar {
+  display:flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 6px 4px;
+}
+.rightbar .card {
+  width: 100%;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.rightbar .card.small { height: 252px; }
+.rightbar .card.medium { height: 306px; }
+.rightbar .card.tall { height: 306px; }
+.rightbar-list { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px; color:var(--muted); }
