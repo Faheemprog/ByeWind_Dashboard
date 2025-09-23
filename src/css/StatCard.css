@@ -17,7 +17,6 @@
 .stat-value { font-size: 22px; font-weight:700; }
 .stat-meta { font-size: 12px; color: var(--muted); }
 
-/* subtle lift and fade on hover/focus */
 .card, .stat-card, .sidebar-item {
   transition: transform 180ms cubic-bezier(.2,.9,.25,1), box-shadow 180ms, background 180ms;
 }
@@ -41,3 +40,4 @@
 
 
 .highlight-customers, .highlight-growth { background: rgba(255,255,255,0.03); }
+
