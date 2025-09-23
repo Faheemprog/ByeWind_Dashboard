@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import React, { useEffect, useState } from "react";
 import "../css/Header.css";
 
@@ -62,3 +61,4 @@ export default function Header() {
     </div>
   );
 }
+
